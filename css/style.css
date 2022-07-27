@@ -22,13 +22,19 @@ hr{
     margin: 5% 5% 5% 25%;
 }
 
+.Contacto h2 {
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+
 /******************************/
 /* MEDIA QUERY 320px to 575px*/
 /******************************/
 
 @media (min-width: 320px) and (max-width: 575px) {
     .navbar{
-        background-color: #0d6efd;
+        background-color: #3F4A3C;
         
     }
     .navbar-dark .navbar-nav .nav-link {
@@ -95,10 +101,15 @@ hr{
         text-align: center;
         margin: 5px;
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        background-color: #64C25E;
+    }
     /*section 3 */
 
     footer{
-        background-color: #0d6efd;
+        background-color: #64C25E;
        text-align: center;
     }
     
@@ -128,7 +139,11 @@ hr{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #00B8FF;
+        background-color: #3F4A3C;
+    }
+    .Contacto h2 {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;  
     }
 }
 
@@ -138,7 +153,7 @@ hr{
 
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar{
-        background-color: #0d6efd;
+        background-color: #3F4A3C;
         
     }
     .navbar-dark .navbar-nav .nav-link {
@@ -210,10 +225,15 @@ hr{
         margin: 2px;
 
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        background-color: #64C25E;
+    }
     /*section 3 */
 
     footer{
-        background-color: #0d6efd;
+        background-color: #64C25E;
        text-align: center;margin-bottom: auto;
     }
     
@@ -243,9 +263,12 @@ hr{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #00B8FF;
+        background-color: #3F4A3C;
     }
-
+    .Contacto h2 {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;  
+    }
 }
 
 /******************************/
@@ -254,7 +277,7 @@ hr{
 
 @media (min-width: 768px) and (max-width: 992px) {
     .navbar{
-        background-color: #0d6efd;
+        background-color: #3F4A3C;
         
     }
     .navbar-dark .navbar-nav .nav-link {
@@ -326,10 +349,15 @@ hr{
         margin: 2px;
 
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        background-color: #64C25E;
+    }
     /*section 3 */
 
     footer{
-        background-color: #0d6efd;
+        background-color: #64C25E;
        text-align: center;margin-bottom: auto;
     }
     
@@ -359,9 +387,12 @@ hr{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #00B8FF;
+        background-color: #3F4A3C;
     }
-
+    .Contacto h2 {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;  
+    }
 }
 
 /*********************/
@@ -371,7 +402,7 @@ hr{
 @media (min-width: 992px)  {
     .navbar{
         display: block;
-        background-color: #0d6efd;
+        background-color: #3F4A3C;
         font-family: 'Courier New', Courier, monospace;
         position: fixed;
         z-index: 999;
@@ -438,10 +469,15 @@ hr{
         text-align: center;
         margin: 2px;
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        background-color: #64C25E;
+    }
     /*section 3 */
 
     footer{
-        background-color: #0d6efd;
+        background-color: #64C25E;
        text-align: center;
        margin-bottom: auto;
        
@@ -474,9 +510,12 @@ hr{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #00B8FF;
+        background-color: #3F4A3C;
     }
-
+    .Contacto h2 {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;  
+    }
 }
 
 /*********************/
@@ -485,7 +524,7 @@ hr{
 
 @media (min-width: 1024px)  {
     .navbar{
-        background-color: #0d6efd;
+        background-color: #3F4A3C;
         font-family: 'Courier New', Courier, monospace;
         position: fixed;
         z-index: 999;
@@ -545,10 +584,15 @@ hr{
         margin: 2px;font-family: 'Josefin Sans', sans-serif;  
     
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        background-color: #64C25E;
+    }
     /*section 3 */
 
     footer{
-        background-color: #0d6efd;
+        background-color: #64C25E;
        text-align: center;
        margin-bottom: auto;
     }
@@ -579,9 +623,12 @@ hr{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #00B8FF;
+        background-color: #3F4A3C;
     }
-
+    .Contacto h2 {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;  
+    }
 
 }
 
@@ -591,7 +638,7 @@ hr{
 
 @media (min-width: 1200px)  {
     .navbar{
-        background-color: #0d6efd;
+        background-color: #3F4A3C;
         font-family: 'Courier New', Courier, monospace;
         position: fixed;
         z-index: 999;
@@ -648,10 +695,16 @@ hr{
         text-align: center;
         margin: 10px;font-family: 'Josefin Sans', sans-serif;
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        background-color: #64C25E;
+    }
+
     /*section 3 */
 
     footer{
-        background-color: #0d6efd;
+        background-color: #64C25E;
        text-align: center;
     }
     .Contacto h2{
@@ -684,9 +737,12 @@ hr{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #00B8FF;
+        background-color: #3F4A3C;
     }
-
+    .Contacto h2 {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;  
+    }
 }
 
 /*********************/
@@ -695,7 +751,7 @@ hr{
 
 @media (min-width: 2100px)  {
     .navbar{
-        background-color: #0d6efd;
+        background-color: #3F4A3C;
         font-family: 'Courier New', Courier, monospace;
         position: fixed;
         z-index: 999;
@@ -756,10 +812,16 @@ hr{
         text-align: center;
         margin: 2px;
     }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        background-color: #64C25E;
+    }
     /*section 3 */
 
     footer{
-        background-color: #0d6efd;
+        background-color: #64C25E;
        text-align: center;margin-bottom: auto; 
     }
    
@@ -789,9 +851,9 @@ hr{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color:#00B8FF;
+        background-color:#3F4A3C;
     }
-    .contacto {
+    .Contacto h2 {
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;  
     }
