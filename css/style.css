@@ -70,11 +70,11 @@ body{
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;  font-family: 'Josefin Sans', sans-serif;  
+        ;  font-family: 'Josefin Sans', sans-serif;  
     }
     .sabias h2{
         text-align: center;
-        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+       ;font-family: 'Josefin Sans', sans-serif;  
     
     }
     .sabias img{
@@ -183,12 +183,12 @@ body{
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+       ;font-family: 'Josefin Sans', sans-serif;  
     
     }
     .sabias h2{
         text-align: center;
-        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+        ;font-family: 'Josefin Sans', sans-serif;  
     
     }
     .sabias img{
@@ -284,12 +284,12 @@ body{
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+     font-family: 'Josefin Sans', sans-serif;  
     
     }
     .sabias h2{
         text-align: center;
-        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+        font-family: 'Josefin Sans', sans-serif;  
     
     }
     .sabias img{
@@ -386,12 +386,12 @@ body{
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+        font-family: 'Josefin Sans', sans-serif;  
     
     }
     .sabias h2{
         text-align: center;
-        text-decoration: underline;
+      
     font-family: 'Josefin Sans', sans-serif;  
 }
     .sabias img{
@@ -489,11 +489,11 @@ body{
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;
+       font-family: 'Josefin Sans', sans-serif;
     }
     .sabias h2{
         text-align: center;
-        text-decoration: underline;
+        
     }
     .sabias img{
 
@@ -648,3 +648,5 @@ body{
         font-family: 'Josefin Sans', sans-serif;  
     }
 }
+
+
