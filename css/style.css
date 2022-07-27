@@ -26,7 +26,10 @@ hr{
     color: #FFFFFF;
     font-family: 'Josefin Sans', sans-serif;  
 }
-
+.h5, h5 {
+    font-size: 1.25rem;
+    color: white;
+}
 
 /******************************/
 /* MEDIA QUERY 320px to 575px*/
@@ -106,6 +109,10 @@ hr{
         padding: 1rem 1rem;
         background-color: #64C25E;
     }
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: white;
+    }
     /*section 3 */
 
     footer{
@@ -144,6 +151,10 @@ hr{
     .Contacto h2 {
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;  
+    }
+    .h5, h5 {
+        font-size: 1.25rem;
+        color: white;
     }
 }
 
@@ -230,6 +241,10 @@ hr{
         padding: 1rem 1rem;
         background-color: #64C25E;
     }
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: white;
+    }
     /*section 3 */
 
     footer{
@@ -268,6 +283,10 @@ hr{
     .Contacto h2 {
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;  
+    }
+    .h5, h5 {
+        font-size: 1.25rem;
+        color: white;
     }
 }
 
@@ -354,6 +373,10 @@ hr{
         padding: 1rem 1rem;
         background-color: #64C25E;
     }
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: white;
+    }
     /*section 3 */
 
     footer{
@@ -392,6 +415,10 @@ hr{
     .Contacto h2 {
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;  
+    }
+    .h5, h5 {
+        font-size: 1.25rem;
+        color: white;
     }
 }
 
@@ -474,6 +501,10 @@ hr{
         padding: 1rem 1rem;
         background-color: #64C25E;
     }
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: white;
+    }
     /*section 3 */
 
     footer{
@@ -515,6 +546,10 @@ hr{
     .Contacto h2 {
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;  
+    }
+    .h5, h5 {
+        font-size: 1.25rem;
+        color: white;
     }
 }
 
@@ -589,6 +624,10 @@ hr{
         padding: 1rem 1rem;
         background-color: #64C25E;
     }
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: white;
+    }
     /*section 3 */
 
     footer{
@@ -629,7 +668,10 @@ hr{
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;  
     }
-
+    .h5, h5 {
+        font-size: 1.25rem;
+        color: white;
+    }
 }
 
 /*********************/
@@ -700,6 +742,10 @@ hr{
         padding: 1rem 1rem;
         background-color: #64C25E;
     }
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: white;
+    }
 
     /*section 3 */
 
@@ -742,6 +788,10 @@ hr{
     .Contacto h2 {
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;  
+    }
+    .h5, h5 {
+        font-size: 1.25rem;
+        color: white;
     }
 }
 
@@ -818,6 +868,10 @@ hr{
         padding: 1rem 1rem;
         background-color: #64C25E;
     }
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: white;
+    }
     /*section 3 */
 
     footer{
@@ -853,9 +907,13 @@ hr{
         align-items: flex-start;
         background-color:#3F4A3C;
     }
-    .Contacto h2 {
+    .h2 , h2 .Contacto {
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;  
+    }
+    .h5, h5 {
+        font-size: 1.25rem;
+        color: white;
     }
 }
 
