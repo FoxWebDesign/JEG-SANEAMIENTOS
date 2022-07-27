@@ -1,0 +1,638 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(247, 249, 249);
+    font-family: sans-serif;
+    
+    
+}
+
+/******************************/
+/* MEDIA QUERY 320px to 575px*/
+/******************************/
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .navbar{
+        background-color: #0d6efd;
+        
+    }
+
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .container-fluid img{
+        width: 18vw;
+        height: 10vh;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 7px solid white;
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+    
+    .navbar-nav{
+        width: 35%;
+    }
+    .collapse{
+        justify-content:flex-end;
+        margin-inline-end: 1%;
+    }
+    .container-fluid button{
+        color: rgb(255, 255, 255);
+        
+    }
+    /*section 1 */
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;  
+    }
+    .nosotros p{
+        text-align: center;
+        margin: 5px;
+    }
+    /*section 2 */
+    .servicios h2{
+        text-align: center;
+        text-decoration: underline;  font-family: 'Josefin Sans', sans-serif;  
+    }
+    .sabias h2{
+        text-align: center;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .sabias img{
+
+    }
+    .sabias p{
+        text-align: center;
+        margin: 5px;
+    }
+    /*section 3 */
+
+    footer{
+        background-color: #0d6efd;
+       text-align: center;
+    }
+    
+    .container-boton{
+        background-color: #35a835fd;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+        color: white;
+    }
+
+    .desarrollado{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #00B8FF;
+    }
+}
+
+/******************************/
+/* MEDIA QUERY 768px to 992px */
+/******************************/
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar{
+        background-color: #0d6efd;
+        
+    }
+
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-fluid img{
+        width: 10vw;
+        height: 8vh;
+    }
+
+    
+    .navbar-nav{
+        width: 35%;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 7px solid white;
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+    
+
+    .collapse{
+        justify-content:flex-end;
+        margin-inline-end: 1%;
+    }
+    .container-fluid button{
+        color: rgb(255, 255, 255);
+        
+    }
+    /*section 1 */
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .nosotros p{
+        text-align: center;
+        margin: 2px;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    /*section 2 */
+    .servicios h2{
+        text-align: center;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .sabias h2{
+        text-align: center;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .sabias img{
+
+    }
+    .sabias p{
+        text-align: center;
+        margin: 2px;
+
+    }
+    /*section 3 */
+
+    footer{
+        background-color: #0d6efd;
+       text-align: center;margin-bottom: auto;
+    }
+    
+    .container-boton{
+        background-color: #35a835fd;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+        color: white;
+    }
+
+    .desarrollado{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #00B8FF;
+    }
+
+}
+
+/*********************/
+/* MEDIA QUERY 992PX*/
+/*********************/
+
+@media (min-width: 992px)  {
+    .navbar{
+        background-color: #0d6efd;
+     
+    }
+
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-fluid img{
+        width: 8vw;
+        height: 12vh;
+    }
+
+    
+    .navbar-nav{
+        width: 35%;
+    }
+    .collapse{
+        justify-content:flex-end;
+        margin-inline-end: 1%;
+        
+    }
+    /*section 1 */
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .nosotros p{
+        text-align: center;
+        margin: 2px;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    /*section 2 */
+    .servicios h2{
+        text-align: center;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .sabias h2{
+        text-align: center;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .sabias img{
+
+    }
+    .sabias p{
+        text-align: center;
+        margin: 2px;
+    }
+    /*section 3 */
+
+    footer{
+        background-color: #0d6efd;
+       text-align: center;margin-bottom: auto;
+       
+    }
+    
+   
+    .container-boton{
+        background-color: #35a835fd;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+        color: white;
+    }
+
+    .desarrollado{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #00B8FF;
+    }
+
+}
+
+/*********************/
+/* MEDIA QUERY 1024PX*/
+/*********************/
+
+@media (min-width: 1024px)  {
+    .navbar{
+        background-color: #0d6efd;
+        
+    }
+
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-fluid img{
+        width: 15vw;
+        height: 12vh;
+    }
+
+    
+    .navbar-nav{
+        width: 50%;
+    }
+    .collapse{
+        justify-content:flex-end;
+        margin-inline-end: 1%;
+        
+    }
+    /*section 1 */
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .nosotros p{
+        text-align: center;
+        margin: 2px;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    /*section 2 */
+    .servicios h2{
+        text-align: center;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    .sabias h2{
+        text-align: center;
+        text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+    .sabias img{
+
+    }
+    .sabias p{
+        text-align: center;
+        margin: 2px;font-family: 'Josefin Sans', sans-serif;  
+    
+    }
+    /*section 3 */
+
+    footer{
+        background-color: #0d6efd;
+       text-align: center;
+       margin-bottom: auto;
+    }
+    
+    .container-boton{#35a835fd
+        background-color: #315a31fd;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+        color: white;
+    }
+
+    .desarrollado{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #00B8FF;
+    }
+
+
+}
+
+/*********************/
+/* MEDIA QUERY 1200PX*/
+/*********************/
+
+@media (min-width: 1200px)  {
+    .navbar{
+        background-color: #0d6efd;
+        
+    }
+
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-fluid img{
+        width: 12vw;
+        height: 12vh;
+    }
+
+    
+    .navbar-nav{
+        width: 40%;
+        
+    }
+    .collapse{
+        justify-content:flex-end;
+        margin-inline-end: 1%;
+        
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;;
+    }
+    /*section 1 */
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;font-family: 'Josefin Sans', sans-serif;
+    }
+    .nosotros p{
+        text-align: center;
+        margin: 10px;
+    }
+    /*section 2 */
+    .servicios h2{
+        text-align: center;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;
+    }
+    .sabias h2{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .sabias img{
+
+    }
+    .sabias p{
+        text-align: center;
+        margin: 10px;font-family: 'Josefin Sans', sans-serif;
+    }
+    /*section 3 */
+
+    footer{
+        background-color: #0d6efd;
+       text-align: center;
+    }
+    .Contacto h2{
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;  
+    }
+    .container-boton{
+        background-color: #35a835fd;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+        color: white;
+    }
+
+    .desarrollado{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #00B8FF;
+    }
+
+}
+
+/*********************/
+/* MEDIA QUERY 2100PX*/
+/*********************/
+
+@media (min-width: 2100px)  {
+    .navbar{
+        background-color: #0d6efd;
+        font-family: 'Courier New', Courier, monospace;
+       
+    }
+
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-fluid img{
+        width: 12vw;
+        height: 12vh;
+    }
+
+    
+    .navbar-nav{
+        width: 40%;
+      
+        
+    }
+    .collapse{
+        justify-content:flex-end;
+        margin-inline-end: 1%;
+        
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, 0.55);
+    }
+    /*section 1 */
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nosotros p{
+        text-align: center;
+        margin: 2px;
+    }
+    /*section 2 */
+  
+    .servicios h2{
+        text-align: center;
+     
+        font-family: 'Josefin Sans', sans-serif;  
+        
+    }
+    .sabias h2{
+        text-align: center;
+         font-family: 'Josefin Sans', sans-serif;  
+        
+    }
+    .sabias img{
+
+    }
+    .sabias p{
+        text-align: center;
+        margin: 2px;
+    }
+    /*section 3 */
+
+    footer{
+        background-color: #0d6efd;
+       text-align: center;margin-bottom: auto; 
+    }
+   
+    .container-boton{
+        background-color: #35a835fd;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+        color: white;
+    }
+
+    .desarrollado{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color:#00B8FF;
+    }
+    .contacto {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;  
+    }
+}
