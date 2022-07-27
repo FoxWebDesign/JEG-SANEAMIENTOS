@@ -20,7 +20,10 @@ body{
         background-color: #0d6efd;
         
     }
-
+    .navbar-dark .navbar-nav .nav-link {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;;
+    }
     .container-fluid{
         display: flex;
         justify-content: space-between;
@@ -58,7 +61,7 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-     
+        font-family: 'Josefin Sans', sans-serif;  
     }
     .nosotros p{
         text-align: center;
@@ -67,11 +70,12 @@ body{
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;
+        text-decoration: underline;  font-family: 'Josefin Sans', sans-serif;  
     }
     .sabias h2{
         text-align: center;
-        text-decoration: underline;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .sabias img{
 
@@ -126,7 +130,10 @@ body{
         background-color: #0d6efd;
         
     }
-
+    .navbar-dark .navbar-nav .nav-link {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;;
+    }
     .container-fluid{
         display: flex;
         justify-content: space-between;
@@ -165,20 +172,24 @@ body{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .nosotros p{
         text-align: center;
-        margin: 2px;
+        margin: 2px;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .sabias h2{
         text-align: center;
-        text-decoration: underline;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .sabias img{
 
@@ -235,7 +246,10 @@ body{
         background-color: #0d6efd;
      
     }
-
+    .navbar-dark .navbar-nav .nav-link {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;;
+    }
     .container-fluid{
         display: flex;
         justify-content: space-between;
@@ -259,20 +273,24 @@ body{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .nosotros p{
         text-align: center;
-        margin: 2px;
+        margin: 2px;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .sabias h2{
         text-align: center;
-        text-decoration: underline;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .sabias img{
 
@@ -340,7 +358,10 @@ body{
         height: 12vh;
     }
 
-    
+    .navbar-dark .navbar-nav .nav-link {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;;
+    }
     .navbar-nav{
         width: 50%;
     }
@@ -354,27 +375,32 @@ body{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .nosotros p{
         text-align: center;
-        margin: 2px;
+        margin: 2px;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     /*section 2 */
     .servicios h2{
         text-align: center;
-        text-decoration: underline;
+        text-decoration: underline;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     .sabias h2{
         text-align: center;
         text-decoration: underline;
-    }
+    font-family: 'Josefin Sans', sans-serif;  
+}
     .sabias img{
 
     }
     .sabias p{
         text-align: center;
-        margin: 2px;
+        margin: 2px;font-family: 'Josefin Sans', sans-serif;  
+    
     }
     /*section 3 */
 
