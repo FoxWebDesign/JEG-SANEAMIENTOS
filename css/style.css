@@ -30,6 +30,9 @@ hr{
     font-size: 1.25rem;
     color: white;
 }
+footer h2{
+    color: white;
+}
 
 /******************************/
 /* MEDIA QUERY 320px to 575px*/
@@ -169,6 +172,9 @@ hr{
     }
     .h5, h5 {
         font-size: 1.25rem;
+        color: white;
+    }
+    footer h2{
         color: white;
     }
 }
@@ -317,6 +323,9 @@ hr{
         font-size: 1.25rem;
         color: white;
     }
+    footer h2{
+        color: white;
+    }
 }
 
 /******************************/
@@ -460,6 +469,9 @@ hr{
     }
     .h5, h5 {
         font-size: 1.25rem;
+        color: white;
+    }
+    footer h2{
         color: white;
     }
 }
@@ -630,6 +642,9 @@ hr{
         font-size: 1.25rem;
         color: white;
     }
+    footer h2{
+        color: white;
+    }
 }
 
 /*********************/
@@ -798,6 +813,9 @@ hr{
         font-size: 1.25rem;
         color: white;
     }
+    footer h2{
+        color: white;
+    }
 }
 
 /*********************/
@@ -896,7 +914,7 @@ hr{
     }
 
     .sabiasqueiz{
-        text-align: right;
+        text-align: left;
         margin: 2px;
     }
 
@@ -905,7 +923,7 @@ hr{
     }
 
     .sabiasqueiz p{
-        text-align: right;
+        text-align: left;
     }
 
 
@@ -955,6 +973,9 @@ hr{
     }
     .h5, h5 {
         font-size: 1.25rem;
+        color: white;
+    }
+    footer h2{
         color: white;
     }
 }
@@ -1112,6 +1133,9 @@ hr{
     }
     .h5, h5 {
         font-size: 1.25rem;
+        color: white;
+    }
+    footer h2{
         color: white;
     }
 }
