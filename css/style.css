@@ -90,20 +90,9 @@ hr{
     /*section 2 */
     .servicios h2{
         text-align: center;
-        ;  font-family: 'Josefin Sans', sans-serif;  
+        font-family: 'Josefin Sans', sans-serif;  
     }
-    .sabias h2{
-        text-align: center;
-       ;font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias img{
-
-    }
-    .sabias p{
-        text-align: center;
-        margin: 5px;
-    }
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -114,6 +103,32 @@ hr{
         color: white;
     }
     /*section 3 */
+
+    .sabias h2{
+        text-align: center;
+    }
+
+    .izquierda{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .izquierda .sabiasquede{
+        text-align: center;
+    }
+
+    .derecha{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .derecha .sabiasqueiz{
+        text-align: center;
+    }
+
+
+    /*Footer*/
 
     footer{
         background-color: #64C25E;
@@ -223,19 +238,7 @@ hr{
        ;font-family: 'Josefin Sans', sans-serif;  
     
     }
-    .sabias h2{
-        text-align: center;
-        ;font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias img{
-
-    }
-    .sabias p{
-        text-align: center;
-        margin: 2px;
-
-    }
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -246,6 +249,32 @@ hr{
         color: white;
     }
     /*section 3 */
+
+    .sabias h2{
+        text-align: center;
+    }
+
+    .izquierda{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .izquierda .sabiasquede{
+        text-align: center;
+    }
+
+    .derecha{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .derecha .sabiasqueiz{
+        text-align: center;
+    }
+
+
+    /*Footer*/
 
     footer{
         background-color: #64C25E;
@@ -291,10 +320,10 @@ hr{
 }
 
 /******************************/
-/* MEDIA QUERY 768px to 992px */
+/* MEDIA QUERY 768px to 991px */
 /******************************/
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .navbar{
         background-color: #3F4A3C;
         
@@ -355,19 +384,7 @@ hr{
        ;font-family: 'Josefin Sans', sans-serif;  
     
     }
-    .sabias h2{
-        text-align: center;
-        ;font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias img{
-
-    }
-    .sabias p{
-        text-align: center;
-        margin: 2px;
-
-    }
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -378,6 +395,31 @@ hr{
         color: white;
     }
     /*section 3 */
+
+    .s.sabias h2{
+        text-align: center;
+    }
+
+    .izquierda{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .izquierda .sabiasquede{
+        text-align: center;
+    }
+
+    .derecha{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .derecha .sabiasqueiz{
+        text-align: center;
+    }
+
+    /*Footer*/
 
     footer{
         background-color: #64C25E;
@@ -484,18 +526,7 @@ hr{
      font-family: 'Josefin Sans', sans-serif;  
     
     }
-    .sabias h2{
-        text-align: center;
-        font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias img{
-
-    }
-    .sabias p{
-        text-align: center;
-        margin: 2px;
-    }
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -506,6 +537,54 @@ hr{
         color: white;
     }
     /*section 3 */
+
+    .sabias h2{
+        text-align: center;
+         font-family: 'Josefin Sans', sans-serif;  
+        
+    }
+    .sabias p{
+        margin: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .sabias img{
+
+    }
+
+    .izquierda{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .derecha{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .sabiasquede{
+        text-align: left;
+        margin: 2px;
+    }
+
+    .sabiasqueiz{
+        text-align: right;
+        margin: 2px;
+    }
+
+    .sabiasquede p{
+        text-align: left;
+    }
+
+    .sabiasqueiz p{
+        text-align: right;
+    }
+
+
+
+
+    /*Footer*/
+
 
     footer{
         background-color: #64C25E;
@@ -630,6 +709,53 @@ hr{
     }
     /*section 3 */
 
+    .sabias h2{
+        text-align: center;
+         font-family: 'Josefin Sans', sans-serif;  
+        
+    }
+    .sabias p{
+        margin: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .sabias img{
+
+    }
+
+    .izquierda{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .derecha{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .sabiasquede{
+        text-align: left;
+        margin: 2px;
+    }
+
+    .sabiasqueiz{
+        text-align: right;
+        margin: 2px;
+    }
+
+    .sabiasquede p{
+        text-align: left;
+    }
+
+    .sabiasqueiz p{
+        text-align: right;
+    }
+
+
+
+
+    /*Footer*/
+
     footer{
         background-color: #64C25E;
        text-align: center;
@@ -726,17 +852,8 @@ hr{
         text-align: center;
        font-family: 'Josefin Sans', sans-serif;
     }
-    .sabias h2{
-        text-align: center;
-        
-    }
-    .sabias img{
-
-    }
-    .sabias p{
-        text-align: center;
-        margin: 10px;font-family: 'Josefin Sans', sans-serif;
-    }
+    
+    
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -748,6 +865,53 @@ hr{
     }
 
     /*section 3 */
+
+    .sabias h2{
+        text-align: center;
+         font-family: 'Josefin Sans', sans-serif;  
+        
+    }
+    .sabias p{
+        margin: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .sabias img{
+
+    }
+
+    .izquierda{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .derecha{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .sabiasquede{
+        text-align: left;
+        margin: 2px;
+    }
+
+    .sabiasqueiz{
+        text-align: right;
+        margin: 2px;
+    }
+
+    .sabiasquede p{
+        text-align: left;
+    }
+
+    .sabiasqueiz p{
+        text-align: right;
+    }
+
+
+
+
+    /*Footer*/
 
     footer{
         background-color: #64C25E;
@@ -850,18 +1014,7 @@ hr{
         font-family: 'Josefin Sans', sans-serif;  
         
     }
-    .sabias h2{
-        text-align: center;
-         font-family: 'Josefin Sans', sans-serif;  
-        
-    }
-    .sabias img{
-
-    }
-    .sabias p{
-        text-align: center;
-        margin: 2px;
-    }
+    
 
     .card-body {
         flex: 1 1 auto;
@@ -873,6 +1026,52 @@ hr{
         color: white;
     }
     /*section 3 */
+    .sabias h2{
+        text-align: center;
+         font-family: 'Josefin Sans', sans-serif;  
+        
+    }
+    .sabias p{
+        margin: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .sabias img{
+
+    }
+
+    .izquierda{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .derecha{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .sabiasquede{
+        text-align: left;
+        margin: 2px;
+    }
+
+    .sabiasqueiz{
+        text-align: right;
+        margin: 2px;
+    }
+
+    .sabiasquede p{
+        text-align: left;
+    }
+
+    .sabiasqueiz p{
+        text-align: right;
+    }
+
+
+
+
+    /*Footer*/
 
     footer{
         background-color: #64C25E;
