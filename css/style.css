@@ -114,7 +114,7 @@ footer h2{
     .izquierda{
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .izquierda .sabiasquede{
         text-align: center;
